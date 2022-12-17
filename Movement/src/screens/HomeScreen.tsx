@@ -1,6 +1,7 @@
 import React from 'react'
 import { Text, View } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
+import { Exercise } from '../components/Exercise';
 
 export const HomeScreen = () => {
   return (
@@ -11,6 +12,7 @@ export const HomeScreen = () => {
             size = { 50 }
         
         />
+        <Exercise/>
     </View>
   )
 }
